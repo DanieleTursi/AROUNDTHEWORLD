@@ -5,10 +5,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size:15px;
   width:100%;
-
+  overflow-x: hidden;
 }
 .header {
-    background-image: url('https://cdn.pixabay.com/photo/2015/01/15/16/17/hands-600497_1280.jpg');
+    background-image: url('/IMAGES/bghands.jpeg');
     background-position:center center;
     background-repeat: no-repeat;
     padding:20px;
@@ -77,7 +77,7 @@ ul {
   margin:0 auto;
   }
   
-  .container {
+.container {
     margin:auto;
     overflow:auto;
     width:900px;
@@ -90,6 +90,10 @@ ul {
     margin:10px;
     border-radius: 40px;
   }
+
+.places p{
+  text-shadow: 1px 1px black;
+}
   
 .container h1{
     background:#3968cf;
@@ -101,18 +105,16 @@ ul {
     padding: 14px 25px;
   }
   
-.places p{
-    font-size:16px;
-    line-height:28px;
-    max-width:700px;
-  }
-  
 .places1{
     background: url('https://media.timeout.com/images/105770969/1372/772/image.jpg') center center no-repeat;
     color:#ffffff;
     padding:80px 20px 60px 20px;
     margin:10px;
     border-radius: 40px;
+  }
+
+.places1 p{
+    text-shadow: 1px 1px black;
   }
 
 .places2{
@@ -122,102 +124,77 @@ ul {
     margin:10px;
     border-radius: 40px;
   }
+
+.places2 p{
+    text-shadow: 1px 1px black;
+  }
   
   /** REVIEWS LIST */
   
 #reviewscontainer {
     width:100%;
     background:#add8e6;
+    padding:10px 0 50px 0;
   }
   
 #reviewslist {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width:1000px;
-    margin:0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
+    justify-content: center;
     }
   
 #reviewscontainer h2 {
     color:#3968cf;
-    padding:10px 15px 0px 15px;
+    padding:25px 0 0 0;
     font-size:30px;
     font-style:italic;
     font-family: Stencil Std, fantasy; 
     text-align: center;
   }
+
 .reviewbox{
     display: flex;
     flex-direction: column;
     align-items: center;
     border-left: #3968cf 6px solid;
     background: #e0ffff;
-    font-size: 16px;
-    font-family: American Typewriter, serif;
     font-style:italic;
-    padding:0 10px ;
-    float:left;
-    width:40%;
-    margin:15px;
+    width:300px;
+    padding-top:20px;
+    margin:20px;
     border-radius:5px;
   }
 
-  .revtit {
+.revtit {
     display: flex;
     flex-direction: row;
-    align-items: center;
-
+    justify-content: center;
   }
   
 .reviewp{
-    padding:5px;
-    clear:both;
+    text-align: justify;
+    padding: 20px;
+    font-family: American Typewriter, serif;
   }
   
 h3{
     color:#3968cf;
     font-size:18px;
     font-family: American Typewriter, serif;
-    padding:3px;
-  }
-#reviewslist .primary .sanfrancisco{
-    float:left;
-    padding: 5px 3px 5px 5px;
-  }
-  
-  #reviewscontainer .secondary .neworleans{
-    float:left;
-    padding: 5px 3px 5px 5px;
-  }
-  
-  .primary .sanfrancisco-rating{
-    background:#d3d3d3;
-    border-left:5px #778899 solid;
-    color:#ffffff;
-  }
-  .primary .sanfrancisco-rating image{
-    float:left;
-    padding-top:2px;
-  }
-  .sanfrancisco-rating .sanfrancisco-rating-star{
-    vertical-align: bottom;
+    padding-top:20px;
   }
 
-  .footer {
+.footer {
     background-color:rgb(84, 147, 184);
     color:#ffffff;
     margin:20px 0 0 0;
     text-align:center;
-    padding:5px;
+    padding:20px 0;
   }
 
-  .footer a{
-    color:white;
-    text-decoration:underline;
-  }
 
-  .footer p{
+.footer p{
     color:white;
+    padding-top:5px;
+    margin:0;
   }
