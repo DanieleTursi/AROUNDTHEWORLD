@@ -1,0 +1,223 @@
+body {
+  margin: 0 auto;
+  color: #3a3a3a;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:15px;
+  width:100%;
+
+}
+.header {
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/15/16/17/hands-600497_1280.jpg');
+    background-position:center center;
+    background-repeat: no-repeat;
+    padding:20px;
+    text-align:center;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+
+.header nav a {
+    border-bottom:2px solid #BE1e2d; 
+    color:#ffffff;
+    margin:0px 8px;
+    padding:5px 8px;
+    text-decoration:none;
+  }
+
+.header nav a:hover {
+    background:#be1e2d;
+  }
+.logo{
+    margin-bottom:300px;
+    font-size:50px;
+ }
+.logo a{
+   text-decoration: none;
+   color:#ffffff;
+ }
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    color:#ffffff;
+  }
+
+ul {
+    margin:0px;
+    font-size: 12px;
+    color:#ffffff;
+    text-align:center;
+   }
+
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+
+.button{
+  background:#3968cf;
+  border-radius: 4px;
+  color:#ffffff;
+  display:inline-block;
+  font-size: 12px;
+  font-weight:bold;
+  letter-spacing:1px;
+  margin:10px 0;
+  padding:8px 20px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+/**PLACES LIST START*/
+
+#placeslist {
+  width:1000px;
+  margin:0 auto;
+  }
+  
+  .container {
+    margin:auto;
+    overflow:auto;
+    width:900px;
+  }
+  
+.places{
+    background: url('https://cdn.mos.cms.futurecdn.net/39cDAaw2RBsSMsmEw8R3s6-1024-80.jpg.webp') no-repeat;
+    color:#ffffff;
+    padding:80px 20px 60px 20px;
+    margin:10px;
+    border-radius: 40px;
+  }
+  
+.container h1{
+    background:#3968cf;
+    border-left: 6px solid #00008b;
+    border-radius:0 4px 4px 0;
+    color:#ffffff;
+    display:inline-block;
+    margin-bottom:10px;
+    padding: 14px 25px;
+  }
+  
+.places p{
+    font-size:16px;
+    line-height:28px;
+    max-width:700px;
+  }
+  
+.places1{
+    background: url('https://media.timeout.com/images/105770969/1372/772/image.jpg') center center no-repeat;
+    color:#ffffff;
+    padding:80px 20px 60px 20px;
+    margin:10px;
+    border-radius: 40px;
+  }
+
+.places2{
+    background: url('https://i2.wp.com/www.alltherooms.com/blog/wp-content/uploads/2019/01/Feature-Where-to-Go-Underground-Exploring-in-Caves-in-Arizona-By-Tobin-Akehurst.jpg?resize=1000%2C667&ssl=1') center center no-repeat;
+    color:#ffffff;
+    padding:80px 20px 60px 20px;
+    margin:10px;
+    border-radius: 40px;
+  }
+  
+  /** REVIEWS LIST */
+  
+#reviewscontainer {
+    width:100%;
+    background:#add8e6;
+  }
+  
+#reviewslist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:1000px;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    }
+  
+#reviewscontainer h2 {
+    color:#3968cf;
+    padding:10px 15px 0px 15px;
+    font-size:30px;
+    font-style:italic;
+    font-family: Stencil Std, fantasy; 
+    text-align: center;
+  }
+.reviewbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: #3968cf 6px solid;
+    background: #e0ffff;
+    font-size: 16px;
+    font-family: American Typewriter, serif;
+    font-style:italic;
+    padding:0 10px ;
+    float:left;
+    width:40%;
+    margin:15px;
+    border-radius:5px;
+  }
+
+  .revtit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  
+.reviewp{
+    padding:5px;
+    clear:both;
+  }
+  
+h3{
+    color:#3968cf;
+    font-size:18px;
+    font-family: American Typewriter, serif;
+    padding:3px;
+  }
+#reviewslist .primary .sanfrancisco{
+    float:left;
+    padding: 5px 3px 5px 5px;
+  }
+  
+  #reviewscontainer .secondary .neworleans{
+    float:left;
+    padding: 5px 3px 5px 5px;
+  }
+  
+  .primary .sanfrancisco-rating{
+    background:#d3d3d3;
+    border-left:5px #778899 solid;
+    color:#ffffff;
+  }
+  .primary .sanfrancisco-rating image{
+    float:left;
+    padding-top:2px;
+  }
+  .sanfrancisco-rating .sanfrancisco-rating-star{
+    vertical-align: bottom;
+  }
+
+  .footer {
+    background-color:rgb(84, 147, 184);
+    color:#ffffff;
+    margin:20px 0 0 0;
+    text-align:center;
+    padding:5px;
+  }
+
+  .footer a{
+    color:white;
+    text-decoration:underline;
+  }
+
+  .footer p{
+    color:white;
+  }
