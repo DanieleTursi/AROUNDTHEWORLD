@@ -90,10 +90,6 @@ ul {
     margin:10px;
     border-radius: 40px;
   }
-
-.places p{
-  text-shadow: 1px 1px black;
-}
   
 .container h1{
     background:#3968cf;
@@ -104,6 +100,10 @@ ul {
     margin-bottom:10px;
     padding: 14px 25px;
   }
+
+  .container p{
+    text-shadow: 1px 1px black;
+  }
   
 .places1{
     background: url('https://media.timeout.com/images/105770969/1372/772/image.jpg') center center no-repeat;
@@ -111,10 +111,6 @@ ul {
     padding:80px 20px 60px 20px;
     margin:10px;
     border-radius: 40px;
-  }
-
-.places1 p{
-    text-shadow: 1px 1px black;
   }
 
 .places2{
@@ -125,8 +121,12 @@ ul {
     border-radius: 40px;
   }
 
-.places2 p{
-    text-shadow: 1px 1px black;
+.places3{
+    background: url(/IMAGES/YELLOWSTONE.webp) center center no-repeat;
+    color:#ffffff;
+    padding:80px 20px 60px 20px;
+    margin:10px;
+    border-radius: 40px;
   }
   
   /** REVIEWS LIST */
